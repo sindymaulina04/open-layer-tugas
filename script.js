@@ -98,8 +98,8 @@ map.on('click', async function (event) {
     const location1 = await getLocationInfo(marker1.getGeometry().getCoordinates());
     const location2 = await getLocationInfo(marker2.getGeometry().getCoordinates());
 
-    infoDiv.innerHTML += `<br><strong>Marker 1 Location:</strong> ${location1.display_name}`;
-    infoDiv.innerHTML += `<br><strong>Marker 2 Location:</strong> ${location2.display_name}`;
+    // infoDiv.innerHTML += `<br><strong>Marker 1 Location:</strong> ${location1.display_name}`;
+    // infoDiv.innerHTML += `<br><strong>Marker 2 Location:</strong> ${location2.display_name}`;
   }
 });
 

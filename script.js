@@ -46,7 +46,7 @@ function addMarker(coordinate) {
   const markerStyle = new Style({
     image: new Icon({
       src: 'https://openlayers.org/en/v4.6.5/examples/data/icon.png',
-      scale: 0.1
+      scale: 0.4
     })
   });
 
